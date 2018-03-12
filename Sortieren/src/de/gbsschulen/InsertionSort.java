@@ -5,8 +5,8 @@ public class InsertionSort {
     public static void main(String[] args) {
         int[] zahlen = {5, 7, 4, 9, 7};
         int[] bspZahlen = {5, 7, 0, 3, 4, 2, 6, 1};
-        // Aufgabe 1: Geben Sie die Permutation an, die zu der Inversionenfolge 0 0 0 3 3 3 3 3
-        int[] loseungAufgabe1 = {1, 0, 0, 0, 1, 2, 3, 4};
+        // Aufgabe 1: Geben Sie die Permutation an, die zu der Inversionenfolge 0 0 0 3 3 3 3 3 passt.
+        int[] loseungAufgabe1 = {5, 6, 7, 0, 1, 2, 3, 4};
 
 //         druckeArray(zahlen);
         int[] v = sort(loseungAufgabe1);
@@ -24,7 +24,7 @@ public class InsertionSort {
 //            System.out.printf("%3d ", i);
 //        }
         System.out.println();
-        System.out.println("------------------------------------");
+//        System.out.println("------------------------------------");
     }
 
 
